@@ -1,0 +1,20 @@
+#zoneFrame
+{}
+
+#zoneFrame .view
+{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    display: none;
+}
+
+#zoneFrame .view.active
+{
+    display: block;
+}
+
+#zoneFrame #pullDown
+{
+    height: 50px;
+}

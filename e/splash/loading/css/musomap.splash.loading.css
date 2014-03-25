@@ -1,0 +1,26 @@
+#loadingSplash .view
+{
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+    background-color: transparent;
+}
+
+#loadingSplash .view.active
+{
+    height: auto;
+    width: auto;
+    right: 120px;
+}
+
+#loadingSplash .view .control
+{
+    
+}
+#loadingSplash .view .control .form{
+    text-align: right;
+}
+#loadingSplash .view .control img
+{
+    height: 20px;
+    padding: 5px;
+}

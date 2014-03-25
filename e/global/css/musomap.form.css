@@ -1,0 +1,157 @@
+.invalid
+{
+    border: 1px solid #CD0A0A;
+    background-color: #FEF1EC;
+}
+
+input {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 19px;
+  padding: 12px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  vertical-align: top;
+  -webkit-appearance: none;
+}
+input:focus{
+  font-size: 19px;
+  border: 1px solid lightgray;
+}
+
+input.active{
+    position: absolute;
+    top: 0;
+}
+
+textarea {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 19px;    
+  padding: 12px;
+  margin: 0;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  vertical-align: top;
+  resize: vertical;
+  -webkit-appearance: none;
+}
+
+.form
+{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.formField
+{
+    padding: 5px;
+}
+
+.formField .formButton
+{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: black;
+    display: inline-block;
+    width: 80%;
+    font-weight: bold;
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;    
+}
+
+.formAction
+{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.formAction .formButton
+{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: black;
+    display: inline-block;
+    width: 80%;
+    font-weight: bold;
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;    
+}
+
+.formAction .formButton.facebook
+{
+    background-color: #3B5998;
+    margin-top: 20px;
+}
+
+.formAction .formButton.twitter {
+  background-color: #4293CB;
+    margin-top: 20px;
+}
+
+.formAction .formButton.regular
+{
+  background-color: #D3D3D3;
+    margin-top: 20px;
+}
+
+.formAction .formSubmit {
+  background-color: #0F7BD4;
+  border-radius: 4px 4px 4px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 15px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.formAction .formCancel {
+  background-color: #A9A9A9;
+  border-radius: 4px 4px 4px 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 15px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.formAction .active {
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.formField .optionButton
+{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: lightgray;
+    display: inline-block;
+    width: 80%;
+    font-weight: bold;
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;   
+}
+
+.formField .optionButton.active
+{
+    background-color: #008000;
+    box-shadow: 0 0 10px #008000;
+    -webkit-box-shadow: 0 0 10px #008000;
+    -moz-box-shadow: 0 0 10px #008000;  
+}
+

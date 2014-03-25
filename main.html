@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <!-- phonegap --> 
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="PushNotification.js"></script>        
+        <!-- 3rd party libraries -->
+        <script type="text/javascript" src="e/global/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="e/global/js/jquery.timeago.js"></script>
+        <script type="text/javascript" src="e/global/js/iscroll.js"></script>
+        <script type="text/javascript" src="e/global/js/jquery.watermark.min.js"></script>
+        <script type='text/javascript' src='e/global/js/jquery.tap.js'></script>
+        <script type='text/javascript' src='e/global/js/ba-linkify.js'></script>
+        
+    	<link rel="stylesheet" type="text/css" href="e/global/css/mobiscroll.custom-2.6.2.min.css" />
+    	<script type="text/javascript" src="e/global/js/mobiscroll.custom-2.6.2.min.js" ></script>
+    	<script type="text/javascript" src="e/global/js/date.format.js" ></script>    
+        <!-- musomap -->
+        <script type="text/javascript" src="e/global/js/musomap.js"></script>
+        <!-- musomap.buildDOM -->
+        <script type="text/javascript" src="e/global/js/musomap.buildDOM.js"></script>
+        <!-- musomap.client -->
+        <script type="text/javascript" src="e/global/js/musomap.client.js"></script>
+        <!-- musomap.client -->
+        <script type="text/javascript" src="e/global/js/musomap.notification.js"></script>
+        <!-- musomap.header -->
+        <link rel="stylesheet" type="text/css" href="e/global/css/musomap.site.css">
+        <link rel="stylesheet" type="text/css" href="e/global/css/musomap.form.css">
+        <link rel="stylesheet" type="text/css" href="e/global/css/musomap.header.css">
+        <link rel="stylesheet" type="text/css" href="e/global/css/musomap.body.css">
+        <script type="text/javascript" src="e/global/js/musomap.header.js"></script>
+        
+        <!-- musomap.splash -->
+        <link rel="stylesheet" type="text/css" href="e/splash/css/musomap.splash.css">
+        <script type="text/javascript" src="e/splash/js/musomap.splash.js"></script>
+        <!-- musomap.splash.intro -->
+        <link rel="stylesheet" type="text/css" href="e/splash/intro/css/musomap.splash.intro.css">
+        <script type="text/javascript" src="e/splash/intro/js/musomap.splash.intro.js"></script>
+        <!-- musomap.splash.composer -->
+        <link rel="stylesheet" type="text/css" href="e/splash/composer/css/musomap.splash.composer.css">
+        <script type="text/javascript" src="e/splash/composer/js/musomap.splash.composer.js"></script>         
+        <!-- musomap.splash.loading -->
+        <link rel="stylesheet" type="text/css" href="e/splash/loading/css/musomap.splash.loading.css">
+        <script type="text/javascript" src="e/splash/loading/js/musomap.splash.loading.js"></script>
+        <!-- musomap.splash.settings -->
+        <link rel="stylesheet" type="text/css" href="e/splash/settings/css/musomap.splash.settings.css">
+        <script type="text/javascript" src="e/splash/settings/js/musomap.splash.settings.js"></script>
+        <!-- musomap.splash.system -->
+        <link rel="stylesheet" type="text/css" href="e/splash/system/css/musomap.splash.system.css">
+        <script type="text/javascript" src="e/splash/system/js/musomap.splash.system.js"></script>
+        
+        <!-- musomap.zone -->
+        <link rel="stylesheet" type="text/css" href="e/zone/css/musomap.zone.css">
+        <script type="text/javascript" src="e/zone/js/musomap.zone.js"></script>
+        <!-- musomap.zone.feed -->
+        <link rel="stylesheet" type="text/css" href="e/zone/feed/css/musomap.zone.feed.css">
+        <script type="text/javascript" src="e/zone/feed/js/musomap.zone.feed.js"></script>
+        <!-- musomap.zone.fail -->
+        <link rel="stylesheet" type="text/css" href="e/zone/fail/css/musomap.zone.fail.css">
+        <script type="text/javascript" src="e/zone/fail/js/musomap.zone.fail.js"></script>
+        <!-- musomap.zone.search -->
+        <link rel="stylesheet" type="text/css" href="e/zone/search/css/musomap.zone.search.css">
+        <script type="text/javascript" src="e/zone/search/js/musomap.zone.search.js"></script>         
+        <!-- musomap.zone.log -->
+        <link rel="stylesheet" type="text/css" href="e/zone/log/css/musomap.zone.log.css">
+        <script type="text/javascript" src="e/zone/log/js/musomap.zone.log.js"></script>
+        <!-- musomap.zone.notify -->
+        <link rel="stylesheet" type="text/css" href="e/zone/notify/css/musomap.zone.notify.css">
+        <script type="text/javascript" src="e/zone/notify/js/musomap.zone.notify.js"></script>        
+        <!-- musomap.zone.composer -->
+        <script type="text/javascript" src="e/zone/composer/js/musomap.zone.composer.js"></script>        
+        <!-- musomap.zone.map -->
+        <link rel="stylesheet" type="text/css" href="e/zone/map/css/musomap.zone.map.css">
+        <script type="text/javascript" src="e/zone/map/js/musomap.zone.map.js"></script>
+        <script type="text/javascript" src="e/zone/map/js/musomap.zone.map.cluster.js"></script>
+        <script type="text/javascript" src="e/zone/map/js/musomap.zone.map.clusteredMarker.js"></script>
+        <!-- musomap.zone.login -->
+        <link rel="stylesheet" type="text/css" href="e/zone/login/css/musomap.zone.login.css">
+        <script type="text/javascript" src="e/zone/login/js/musomap.zone.login.js"></script>
+        <!-- musomap.zone.login.method -->
+        <link rel="stylesheet" type="text/css" href="e/zone/login/method/css/musomap.zone.login.method.css">
+        <script type="text/javascript" src="e/zone/login/method/js/musomap.zone.login.method.js"></script>
+        <!-- musomap.zone.login.regular -->
+        <link rel="stylesheet" type="text/css" href="e/zone/login/regular/css/musomap.zone.login.regular.css">
+        <script type="text/javascript" src="e/zone/login/regular/js/musomap.zone.login.regular.js"></script>
+        <!-- musomap.zone.login.facebook -->
+        <script type="text/javascript" src="e/zone/login/facebook/js/musomap.zone.login.facebook.js"></script>
+        <!-- musomap.zone.login.twitter -->
+        <script type="text/javascript" src="e/zone/login/twitter/js/musomap.zone.login.twitter.js"></script>
+        <!-- musomap.zone.login.commit -->
+        <link rel="stylesheet" type="text/css" href="e/zone/login/commit/css/musomap.zone.login.commit.css">
+        <script type="text/javascript" src="e/zone/login/commit/js/musomap.zone.login.commit.js"></script>
+        <!-- musomap.zone.signup -->
+        <link rel="stylesheet" type="text/css" href="e/zone/signup/css/musomap.zone.signup.css">
+        <script type="text/javascript" src="e/zone/signup/js/musomap.zone.signup.js"></script>
+        <!-- musomap.zone.signup.method -->
+        <link rel="stylesheet" type="text/css" href="e/zone/signup/method/css/musomap.zone.signup.method.css">
+        <script type="text/javascript" src="e/zone/signup/method/js/musomap.zone.signup.method.js"></script>
+        <!-- musomap.zone.signup.regular -->
+        <link rel="stylesheet" type="text/css" href="e/zone/signup/regular/css/musomap.zone.signup.regular.css">
+        <script type="text/javascript" src="e/zone/signup/regular/js/musomap.zone.signup.regular.js"></script>
+        <!-- musomap.zone.signup.locate -->
+        <link rel="stylesheet" type="text/css" href="e/zone/signup/locate/css/musomap.zone.signup.locate.css">
+        <script type="text/javascript" src="e/zone/signup/locate/js/musomap.zone.signup.locate.js"></script>
+        <!-- musomap.zone.signup.commit -->
+        <script type="text/javascript" src="e/zone/signup/commit/js/musomap.zone.signup.commit.js"></script>
+        <!-- musomap.zone.signup.confirm -->
+        <script type="text/javascript" src="e/zone/signup/confirm/js/musomap.zone.signup.confirm.js"></script>
+        <!-- musomap.zone.signup.facebook -->
+        <script type="text/javascript" src="e/zone/signup/facebook/js/musomap.zone.signup.facebook.js"></script>
+        <!-- musomap.zone.signup.twitter -->
+        <script type="text/javascript" src="e/zone/signup/twitter/js/musomap.zone.signup.twitter.js"></script>
+        <!-- musomap.zone.account -->
+        <script type="text/javascript" src="e/zone/account/js/musomap.zone.account.js"></script>
+        <!-- musomap.zone.account.menu -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/menu/css/musomap.zone.account.menu.css">
+        <script type="text/javascript" src="e/zone/account/menu/js/musomap.zone.account.menu.js"></script>        
+        <!-- musomap.zone.account.logout -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/logout/css/musomap.zone.account.logout.css">
+        <script type="text/javascript" src="e/zone/account/logout/js/musomap.zone.account.logout.js"></script>          
+        <!-- musomap.zone.account.bio -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/bio/css/musomap.zone.account.bio.css">
+        <script type="text/javascript" src="e/zone/account/bio/js/musomap.zone.account.bio.js"></script> 
+        <!-- musomap.zone.account.confirm -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/confirm/css/musomap.zone.account.confirm.css">
+        <script type="text/javascript" src="e/zone/account/confirm/js/musomap.zone.account.confirm.js"></script> 
+        <!-- musomap.zone.account.locate -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/locate/css/musomap.zone.account.locate.css">
+        <script type="text/javascript" src="e/zone/account/locate/js/musomap.zone.account.locate.js"></script> 
+        <!-- musomap.zone.account.email -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/email/css/musomap.zone.account.email.css">
+        <script type="text/javascript" src="e/zone/account/email/js/musomap.zone.account.email.js"></script> 
+        <!-- musomap.zone.account.password -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/password/css/musomap.zone.account.password.css">
+        <script type="text/javascript" src="e/zone/account/password/js/musomap.zone.account.password.js"></script> 
+        <!-- musomap.zone.account.notify -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/notify/css/musomap.zone.account.notify.css">
+        <script type="text/javascript" src="e/zone/account/notify/js/musomap.zone.account.notify.js"></script>
+        <!-- musomap.zone.account.destroy -->
+        <link rel="stylesheet" type="text/css" href="e/zone/account/destroy/css/musomap.zone.account.destroy.css">
+        <script type="text/javascript" src="e/zone/account/destroy/js/musomap.zone.account.destroy.js"></script>         
+        <!-- init -->
+        <script type="text/javascript">
+            
+            $(document).ready(init);
+            
+            function init() {
+                // build html document from data-template attributes.
+                musomap.buildDOM = new musomap.buildDOM();
+                musomap.buildDOM.renderTemplates();
+                
+                $(musomap.buildDOM).bind('complete', function(event) {
+                    musomap.client = new musomap.client();
+                    musomap.client.start();
+                });
+            }
+        </script>
+        <style>
+            #flick{
+                bottom: 0;
+                right: 0;
+                background-color: white;
+                font-size: smaller;
+                font-style: italic;
+                opacity:0.4;
+                position: absolute;
+                filter:alpha(opacity=40); /* For IE8 and earlier */
+                z-index: 3;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body data-template="e/global/body.html">
+    </body>
+</html>

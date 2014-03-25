@@ -1,0 +1,200 @@
+#composerSplash .control .hat
+{
+    background-color: #808080;
+    padding-left: 5px;
+}
+#composerSplash .control .hat .message
+{
+    line-height: 50px;
+    font-weight: bold;
+    color: lightgray;
+    font-style: italic;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    text-shadow: 0 1px 5px gray;
+    margin-left: 5px;
+}
+#composerSplash .control .form {
+    text-align: center;
+}
+#composerSplash .control .form .panel {
+  display: inline-block;
+  text-align: left;
+  width: 95%;
+}
+#composerSplash .control .form .panel .icon {
+    float: left;
+    width: 40px;
+}
+#composerSplash .control .form .panel .type {
+    float: left;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(229, 229, 229, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+    /* IE6-9 */
+}
+#composerSplash .control .form .panel .type .label {
+    float: left;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+}
+#composerSplash .control .form .panel .type .label .name {
+    float: left;
+    font-weight: bold;
+    padding: 0px 10px;
+    width: 60px;
+}
+#composerSplash .control .form .panel .type .value {
+    float: left;
+    border-left: 1px solid white;
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#composerSplash .control .form .panel .type .menu {
+    position: absolute;
+    display: none;
+    background-color: #e5e5e5;
+    margin-left: 90px;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+}
+#composerSplash .control .form .panel .type .menu.active {
+    display: block;
+}
+#composerSplash .control .form .panel .type .menu .option {
+    padding: 5px 10px;
+    font-weight: bold;
+    width: 60px;
+    cursor: pointer;
+}
+#composerSplash .control .form .panel .type .menu .option:hover {
+    background-color: white;
+}
+#composerSplash .control .form .panel .type .menu .post {
+}
+#composerSplash .control .form .panel .type .menu .event {
+}
+#composerSplash .control .form .panel .type .dropPaddle {
+    float: left;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+#composerSplash .control .form .panel .type .dropPaddle .arrow {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid lightgray;
+    margin: 5px;
+    margin-top: 12px;
+}
+#composerSplash .control .form .camera {
+    float: left;
+    margin-left: 10px;
+}
+#composerSplash .control .form .camera img {
+    height: 30px;
+}
+#composerSplash .control .form .folder {
+    float: left;
+    margin: 10px;
+}
+#composerSplash .control .form .folder img {
+    height: 30px;
+}
+#composerSplash .control .flyer {
+    height: 50%;
+    overflow: hidden;
+    display: none;
+}
+#composerSplash .control .flyer.active {
+    display: block;
+}
+#composerSplash .control .flyer .clear{
+    text-align: right;
+    margin-right: 5%;
+    color: gray;
+    font-size: smaller;
+}
+#composerSplash .control .flyer .image img{
+    width: 90%;
+    border-radius: 5px 5px 0px 0px;
+    -moz-box-shadow: 1px 1px 2px lightgray;
+    -webkit-box-shadow: 1px 1px 2px lightgray;
+    box-shadow: 1px 1px 2px lightgray;    
+}
+#composerSplash .control .message {
+}
+#composerSplash .control .message textarea {
+    border-color: #F99D39;
+    width: 90%;
+}
+
+#composerSplash .control .schedule {
+    display: none;
+    text-align: right;
+}
+#composerSplash .control .schedule.active{
+    display: block;
+}
+#composerSplash .control .schedule .date {
+    background: #F99D39;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    display: inline-block;
+    margin-right: 5%;
+}
+#composerSplash .control .schedule .date .invalid
+{
+    color: red;
+}
+#composerSplash .control .schedule .date .label {
+    padding: 3px;
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    display: none;
+}
+#composerSplash .control .schedule .date .value {
+    padding: 5px;
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    text-align: left;
+    display: none;
+}
+#composerSplash .control .schedule .date .label.active
+{
+    display: block;
+}
+#composerSplash .control .schedule .date .value.active
+{
+    display: block;
+}
+
+#composerSplash .control .form .formAction {
+    text-align: right;
+    width: 90%;
+    display: inline-block;
+    margin-top: 0;
+}

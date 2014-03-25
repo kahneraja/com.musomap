@@ -1,0 +1,23 @@
+#accountZone .locatePage .view .control .form 
+{
+    height: 60%;
+}
+#accountZone .locatePage .view .control .form .formField
+{
+    height: 100%;
+}
+#accountZone .locatePage .view .control .form .formField .map
+{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;
+    border: solid 1px lightgray;    
+}
+
+#accountZone .locatePage .view .control .form .formField .term
+{
+    font-size: smaller;
+    font-style: italic;
+}

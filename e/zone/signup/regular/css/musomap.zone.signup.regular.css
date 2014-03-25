@@ -1,0 +1,13 @@
+#signupZone .regularPage .view .image
+{
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;
+}
+
+#signupZone .regularPage .view .formField.optional
+{
+    display: none;
+}

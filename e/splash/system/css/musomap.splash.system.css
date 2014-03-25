@@ -1,0 +1,17 @@
+#systemSplash .view
+{
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#systemSplash .view .control
+{
+    
+}
+
+#loadingSplash .view .control .message
+{
+    margin-top: 100px;
+    padding: 20px;
+    font-style: italic;
+}

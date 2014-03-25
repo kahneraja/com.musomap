@@ -1,0 +1,64 @@
+#notifyZone .control {
+}
+#notifyZone .control #pullDown {
+}
+#notifyZone .control #pullDown #indicator {
+    display: inline-block;
+    margin: 10px;
+}
+#notifyZone .control #pullDown #indicator #icon {
+    margin-left: 20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid lightgray;
+    display: inline-block;
+    height: 0;
+    width: 0;
+}
+#notifyZone .control #pullDown #indicator #label {
+    display: inline-block;
+    line-height: 30px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 5px;
+}
+#notifyZone .control #template {
+    display: none;
+}
+#notifyZone .control #list {
+    text-align: left;
+}
+#notifyZone .control #list .notification {
+    border-bottom: 1px solid lightgray;
+}
+#notifyZone .control #list .notification .message {
+    display: inline-block;
+    width: 100%;
+}
+#notifyZone .control #list .notification .message .icon {
+    float: left;
+    height: 30px;
+    margin: 10px;
+    overflow: hidden;
+    width: 30px;
+}
+#notifyZone .control #list .notification .message .icon img {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 2px #D3D3D3;
+    min-height: 30px;
+    min-width: 30px;
+}
+#notifyZone .control #list .notification .message .body {
+    padding: 10px;
+}
+#notifyZone .control #list .notification .message .body .label {
+    display: inline-block;
+    font-weight: bold;
+}
+#notifyZone .control #list .notification .timeago {
+    text-align: right;
+    margin-right: 10px;
+    font-size: smaller;
+    color: lightygray;
+    padding: 5px;
+}

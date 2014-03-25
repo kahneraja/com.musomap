@@ -1,0 +1,366 @@
+#feedZone #feedPage #feedControl #pullDown {
+}
+#feedZone #feedPage #feedControl #pullDown #indicator {
+    display: inline-block;
+    margin: 10px;
+}
+#feedZone #feedPage #feedControl #pullDown #indicator #icon {
+    margin-left: 20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid lightgray;
+    display: inline-block;
+    height: 0;
+    width: 0;
+}
+#feedZone #feedPage #feedControl #pullDown #indicator #label {
+    display: inline-block;
+    line-height: 30px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 5px;
+}
+#feedZone #feedPage #feedControl #profile {
+    clear: both;
+    display: none;
+    text-align: left;
+    padding: 10px;
+}
+#feedZone #feedPage #feedControl #profile.active {
+    display: block;
+}
+#feedZone #feedPage #feedControl #profile #thumbnail {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#feedZone #feedPage #feedControl #profile #thumbnail #image {
+    width: 80px;
+    height: 80px;
+    
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#feedZone #feedPage #feedControl #profile #thumbnail #image img {
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+#feedZone #feedPage #feedControl #profile #thumbnail #image.loading {
+    background-color: lightgray;
+}
+#feedZone #feedPage #feedControl #profile #thumbnail #image.loading img{
+    display: none;
+}
+#feedZone #feedPage #feedControl #profile #thumbnail #image img.active {
+    display: block;
+}
+#feedZone #feedPage #feedControl #profile #contact {
+}
+#feedZone #feedPage #feedControl #profile #contact #name {
+    font-weight: bold;
+}
+#feedZone #feedPage #feedControl #profile #contact #label {
+}
+#feedZone #feedPage #feedControl #profile #contact #address {
+    color: gray;
+    font-size: smaller;
+}
+#feedZone #feedPage #feedControl #profile #detail {
+}
+#feedZone #feedPage #feedControl #profile #detail #info {
+    font-size: smaller;
+    padding: 5px;
+}
+#feedZone #feedPage #feedControl #profile #detail #info .label {
+    display: inline-block;
+    font-weight: bold;
+}
+#feedZone #feedPage #feedControl #profile #detail #info .hashtag {
+    display: inline-block;
+}
+#feedZone #feedPage #feedControl #profile .map
+{
+    clear: both;
+    background-color: lightgray;
+    border-top: 1px solid #9da39d;
+    border-bottom: 1px solid #9da39d;    
+}
+#feedZone #feedPage #feedControl #profile .map .canvas
+{
+
+}
+#feedZone #feedPage #feedControl #profile #action
+{
+    clear: both;
+    display: none;
+}
+#feedZone #feedPage #feedControl #profile #action.active
+{
+    display: block;
+}
+#feedZone #feedPage #feedControl #profile #action #panel
+{
+    float: right;
+}
+#feedZone #feedPage #feedControl #profile #action #settings
+{
+    color: #808080;
+    display: inline-block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+    text-shadow: 0 1px 5px #D3D3D3;   
+}
+#feedZone #feedPage #feedControl #prompt {
+    clear: both;
+}
+#feedZone #feedPage #feedControl #prompt #list {
+}
+#feedZone #feedPage #feedControl #prompt #list .question {
+    display: none;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    text-align: right;
+    padding: 10px;
+    font-size: smaller;
+    color: gray;
+}
+#feedZone #feedPage #feedControl #prompt #list .question.active {
+    display: block;
+}
+#feedZone #feedPage #feedControl #stream {
+    clear: both;
+}
+#feedZone #feedPage #feedControl #stream #template {
+    display: none;
+}
+#feedZone #feedPage #feedControl #stream #list {
+}
+#feedZone #feedPage #feedControl #stream #list .post {
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#feedZone #feedPage #feedControl #stream #list .post .flyer {
+}
+#feedZone #feedPage #feedControl #stream #list .post .flyer .image {
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #EBF3FA;
+    border-bottom: 0;
+    -moz-box-shadow: 1px 1px 2px lightgray;
+    -webkit-box-shadow: 1px 1px 2px lightgray;
+    box-shadow: 1px 1px 2px lightgray;
+    overflow: hidden;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#feedZone #feedPage #feedControl #stream #list .post .flyer .image img {
+    width: 100%;
+}
+#feedZone #feedPage #feedControl #stream #list .post .flyer .image.loading {
+    height: 200px;
+    background-color: lightgray;
+}
+#feedZone #feedPage #feedControl #stream #list .post .flyer .image.loading img{
+    display: none;
+}
+#feedZone #feedPage #feedControl #stream #list .post .message {
+    background-color: #EBF3FA;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    overflow: hidden;
+}
+#feedZone #feedPage #feedControl #stream #list .event .message {
+}
+#feedZone #feedPage #feedControl #stream #list .post .message .body {
+
+}
+#feedZone #feedPage #feedControl #stream #list .post .message .body .label {
+    display: inline-block;
+    font-weight: bold;
+}
+#feedZone #feedPage #feedControl #stream #list .post .message .body .hashtag {
+    display: inline-block;
+}
+#feedZone #feedPage #feedControl #stream #list .post .message .body a {
+    text-decoration: none;
+}
+#feedZone #feedPage #feedControl #stream #list .post .message .body a:hover {
+    text-decoration: normal;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: smaller;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box {
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel {
+    border: 1px solid #e3e3e3;
+    -moz-box-shadow: 1px 1px 2px lightgray;
+    -webkit-box-shadow: 1px 1px 2px lightgray;
+    box-shadow: 1px 1px 2px lightgray;
+    border-radius: 5px;
+    background: white;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .preview {
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    background: lightgray;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .preview img {
+    width: 100%;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .preview.loading {
+    height: 200px;
+    background-color: lightgray;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .preview.loading img{
+    display: none;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .content {
+    margin: 5px;
+    overflow: hidden;
+    text-align: left;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .content .title {
+    padding: 2px;
+    font-weight: bold;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .content .host {
+    padding: 2px;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .content .host a {
+    font-size: smaller;
+    color: gray;
+    text-decoration: none;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .content .url {
+    display: none;
+}
+#feedZone #feedPage #feedControl #stream #list .post .external .box .panel .content .summary {
+    font-size: smaller;
+    color: gray;
+    padding: 2px;
+}
+#feedZone #feedPage #feedControl #stream #list .post .message .schedule {
+    font-style: italic;
+    margin-top: 5px;
+    text-align: right;
+    color: gray;
+    font-weight: bold;
+}
+#feedZone #feedPage #feedControl #stream #list .post .action {
+    border-top: 1px solid white;
+    font-weight: bold;
+    color: #3e8bcf;
+    margin-top: 5px;
+}
+#feedZone #feedPage #feedControl #stream #list .post .action .menu {
+}
+#feedZone #feedPage #feedControl #stream #list .post .action .menu .button {
+    padding: 5px;
+}
+#feedZone #feedPage #feedControl #stream #list .post .action .menu .like {
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+#feedZone #feedPage #feedControl #stream #list .post .action .menu .like.active {
+    background-color: #3e8bcf;
+    color: white;
+}
+#feedZone #feedPage #feedControl #stream #list .post .action .menu .reply {
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+#feedZone #feedPage #feedControl #stream #list .post .action .menu .delete {
+    float: left;
+    text-align: center;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    /* For IE8 and earlier */
+    width: 30%;
+}
+#feedZone #feedPage #feedControl #stream #list .post .quoteMask {
+    background-color: #EBF3FA;
+    margin-left: 25px;
+    width: 20px;
+    clear: both;
+}
+#feedZone #feedPage #feedControl #stream #list .event .quoteMask {
+}
+#feedZone #feedPage #feedControl #stream #list .post .quoteMask img {
+    display: block;
+    height: 15px;
+    width: 20px;
+}
+#feedZone #feedPage #feedControl #stream #list .post .user {
+    padding: 5px;
+    text-align: left;
+}
+#feedZone #feedPage #feedControl #stream #list .post .user .icon {
+    margin: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    box-shadow: 0 2px 10px #A9A9A9;
+    border-radius: 3px;    
+}
+#feedZone #feedPage #feedControl #stream #list .post .user .icon img {
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 5px;
+    -moz-box-shadow: 1px 1px 2px lightgray;
+    -webkit-box-shadow: 1px 1px 2px lightgray;
+    box-shadow: 1px 1px 2px lightgray;
+}
+#feedZone #feedPage #feedControl #stream #list .post .user .icon.loading {
+    background-color: lightgray;
+}
+#feedZone #feedPage #feedControl #stream #list .post .user .icon.loading img{
+    display: none;
+}
+#feedZone #feedPage #feedControl #stream #list .post .user .name {
+    padding: 2px;
+    font-weight: bold;
+}
+#feedZone #feedPage #feedControl #stream #list .post .user .address {
+    padding: 2px;
+}
+#feedZone #feedPage #feedControl #stream #list .post .user .timeago {
+    padding: 2px;
+    font-size: smaller;
+    color: gray;
+}
+#feedZone #feedPage #feedControl #pagination {
+    text-align: center;
+    padding: 20px;
+}
+#feedZone #feedPage #feedControl #pagination.hide {
+    display: none;
+}
+#feedZone #feedPage #feedControl #pagination #next {
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 40px solid lightgray;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    margin-bottom: 20px;
+}

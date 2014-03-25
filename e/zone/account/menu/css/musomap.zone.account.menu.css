@@ -1,0 +1,9 @@
+#accountZone .menuPage .view .control{}
+
+#accountZone .menuPage .view .control .collaborator
+{
+    display: none;
+}
+#accountZone .menuPage .view .control .collaborator.active{
+    display: block;
+}

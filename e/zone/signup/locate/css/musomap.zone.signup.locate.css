@@ -1,0 +1,22 @@
+#signupZone .locatePage .view .control .form 
+{
+    height: 60%;
+}
+#signupZone .locatePage .view .control .form  .formField
+{
+    height: 100%;
+}
+#signupZone .locatePage .view .control .form  .formField #signupMap
+{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;
+    border: solid 1px lightgray;    
+}
+#signupZone .locatePage .view .control .form  .formField .term
+{
+    font-size: smaller;
+    font-style: italic;
+}

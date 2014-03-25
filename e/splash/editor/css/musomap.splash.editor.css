@@ -1,0 +1,49 @@
+#editorSplash .control #form
+{
+    text-align: center;
+}
+
+#editorSplash .control #form #watermark
+{
+    position: absolute;
+    width: 100%;
+}
+#editorSplash .control #form #watermark #message
+{
+    color: gray;
+    font-style: italic;
+    text-align: left;
+    font-size: smaller;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    text-align: left;
+    display: inline-block;
+}
+
+#editorSplash .control #form textarea
+{
+    border: 0;
+    width: 90%;
+    z-index: 0;
+    height: 30px;
+    margin-top: 50px;
+}
+
+#editorSplash .control #form #action 
+{
+    text-align: right;
+    width: 90%;
+    display: inline-block;
+}
+#editorSplash .control #form #action #save
+{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}

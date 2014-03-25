@@ -1,0 +1,134 @@
+#headerFrame {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background: #0F7BD4;
+    color: white;
+    box-shadow: 0 2px 10px darkgray;
+    -webkit-box-shadow: 0 2px 10px darkgray;
+    -moz-box-shadow: 0 2px 10px darkgray;
+}
+#headerFrame #topbar #banner {
+}
+#headerFrame #topbar #banner #badge {
+    width: 50%;
+    float: left;
+}
+#headerFrame #topbar #banner #badge #logo {
+    float: left;
+    padding: 10px;
+}
+#headerFrame #topbar #banner #badge #logo img {
+    width: 30px;
+    height: 30px;
+}
+#headerFrame #topbar #banner #badge #title {
+    float: left;
+}
+#headerFrame #topbar #banner #badge #title #label {
+    font-weight: bold;
+    text-shadow: 0 0 10px #75E1FF;
+    line-height: 50px;
+}
+#headerFrame #topbar #banner #action {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+#headerFrame #topbar #banner #action #profile {
+    opacity:0;
+    filter:alpha(opacity=0);
+    display: inline-block;
+}
+#headerFrame #topbar #banner #action #profile.active {
+    opacity:1;
+    filter:alpha(opacity=1);
+}
+#headerFrame #topbar #banner #action #profile #composer {
+    float: left;
+}
+#headerFrame #topbar #banner #action #profile #composer #button {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    float: left;
+    border-left: 1px solid white;
+}
+#headerFrame #topbar #banner #action #profile #home {
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-left: 1px solid white;
+}
+#headerFrame #topbar #banner #action #profile #home img {
+    min-width: 50px;
+    min-height: 50px;
+}
+#headerFrame #topbar #menu {
+    background-color: #333333;
+    width: 100%;
+    display: none;
+    line-height: 50px;
+    border-top: 1px solid lightgray
+}
+#headerFrame #topbar #menu.active {
+    display: inline-block;
+}
+#headerFrame #topbar #menu #query {
+    float: left;
+    width: 60%;
+    height: 50px;
+}
+#headerFrame #topbar #menu #query #label {
+    overflow: hidden;
+    margin-left: 5px;
+    font-size: smaller;
+    font-style: italic;
+}
+#headerFrame #topbar #menu #local {
+    float: left;
+    width: 40%;
+    text-align: right;
+    height: 50px;
+}
+#headerFrame #topbar #menu #local #button {
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    /* For IE8 and earlier */
+    display: inline-block;
+}
+#headerFrame #topbar #menu #local #button.active {
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    /* For IE8 and earlier */
+}
+#headerFrame #topbar #menu #local #button #icon {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: left;
+    height: 15px;
+    margin: 17px 5px 5px 5px;
+    width: 15px;
+}
+#headerFrame #topbar #menu #local #button.active #icon {
+    box-shadow: 0 0 10px yellow;
+    -webkit-box-shadow: 0 2px 10px yellow;
+    -moz-box-shadow: 0 2px 10px yellow;
+}
+#headerFrame #topbar #menu #local #button #label {
+    font-weight: bold;
+    float: left;
+}
+#headerFrame #topbar #menu #local #search {
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+#headerFrame #topbar #menu #local #search img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
