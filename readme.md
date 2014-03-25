@@ -1,3 +1,1 @@
 Musomap's Phonegap Mobile App for IOS and Android.
-
-More to come...
